@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Project base colors */
+:root {
+    --m-bg-color: #E7E8EA;
+    --m-btn-color: #3783E4;
+    --m-btn-hover-color: #2f75d1;
+    --m-btn-text-color: #fff;
+    --m-text-color: #000018;
+}
+
+/* Base styles for document body */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--m-text-color);
+    background: var(--m-bg-color);
+}
+
+/* Adjusting SVG size based on font-size */
+svg {
+    width: 1em;
+    height: 1em;
+}
+
+/* Adjusting button's text color for button icons */
+.btn-icon svg {
+    fill: var(--m-btn-text-color);
+}
+
+/* Removing extra white-space around icons */
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+/* Base styles for button elements */
+.button {
+    border: none;
+    outline: none;
+    background-color: var(--m-btn-color);
+    color: var(--m-btn-text-color);
+    padding: 12px 24px;
+    border-radius: 13px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: var(--m-btn-hover-color);
+}

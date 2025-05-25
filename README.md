@@ -1,68 +1,19 @@
-[go to document end point](#document-end)
-# heading1
-## heading2
-### heading3
-#### heading4
-##### heading5
-###### heading6
+# Modal Component
+### a mini project for opening and closing modal boxes (DOM managment)
 
-**this is a bold text**
+![Static Badge](https://img.shields.io/badge/status-finished-green) ![Static Badge](https://img.shields.io/badge/version-1.0-blue) ![Static Badge](https://img.shields.io/badge/main_branch-master-red)
 
-__this is a bold text__
 
-*this is an italic text*
 
-_this is an italic text_
+#### **Languages used:**
+ [![Skill Icons](https://skillicons.dev/icons?i=html,css,js&theme=light)](https://skillicons.dev/)
 
-~~this is a wrong text~~
 
-**(sample _this is an italic text inside a bold text_ sample)**
+### Setup and Use
+You can clone this project on your local device by executing below command on terminal(cmd, PowerShell, git bash, Linux terminal)
 
-***this text is bold and italic***
-
-this is a <sub>subscript</sub> text
-
-this is a <sup>superscript</sup> text
-
-this is an <ins>underlined</ins> text
-
-> this is a quote
-
-`git status`
-
-These are some basic GIT commands:
-
-```
-git status
-git add
-git commit
+```shell
+git clone https://github.com/Javad2006sy/modal-component.git
 ```
 
-```cpp
-int i = 2;
-cout << i << endl;
-```
-
-```css
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-```
-
-```gitignore
-assets/
-```
-
-```js
-console.log('hello world');
-```
-
-this is red - `#ff0000`
-
-Checkout my [github profile](https://github.com/Javad2006sy)
-
-
-<a name="document-end"></a>
-this is where the document ends
+Or directly download project source. [Download](https://github.com/Javad2006sy/modal-component/archive/refs/heads/master.zip)

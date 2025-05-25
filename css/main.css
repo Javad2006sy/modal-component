@@ -76,8 +76,10 @@ svg {
     transition: opacity 0.3s ease;
 }
 
+/* Modal style when its hidden */
 .modal[data-hidden="true"] {
     opacity: 0;
+    pointer-events: none;
 }
 
 /* Styling modal box */
